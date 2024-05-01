@@ -5,7 +5,7 @@ terraform {
     storage_account_name = "tfstor9839"
     container_name       = "jenkinstfstate"
     key                  = "jenkinstfstate.tfstate"
-    access_key = "HGx1gat7UHLSrLomfAec+vUfVCzlKyq+G9++jYpzClaHWcGhYKR7KSnocgvx1unTQ+lqy5qTo+vD+AStLB6K5Q=="
+    access_key = var.storage_acc_key
   }
 }
 
